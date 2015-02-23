@@ -27,16 +27,17 @@ public class BodyDriver {
 	lance.orbits = moon;
 	lance.name = "Lance";
 	
-	Body jupiter = new Body(sun,"Jupiter");
+	Planet jupiter = new Planet(sun,"Jupiter");
 	//jupiter.orbits = sun;
 	jupiter.name = "Jupiter";
 	System.out.println(jupiter.toString());
 	
-	Body moon = new Body("Io");
+	Body moon = new Body();
 	moon.orbits = jupiter;
+	moon.name = "Io"
 	System.out.println(moon.toString());
 	
-	
+  }
 	
 
 	System.out.println(lance.toString());
