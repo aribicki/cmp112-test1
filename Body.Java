@@ -41,6 +41,13 @@ class Body {
 	  name = bodyName;
 	  }
 
+	//C4
+	Body(Body orbitsAround) {
+	 this();
+	 name = null
+	 orbits = orbitsAround;
+	 }
+	 
 	// Most classes will need a toString() so we can visualize the object
 	public String toString() {
 	   String desc = idNum + " (" + name + ")";
