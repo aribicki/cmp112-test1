@@ -28,12 +28,12 @@ public class BodyDriver {
 	lance.name = "Lance";
 	System.out.println(lance.toString());
 	
-	Planet jupiter = new Planet(sun,"Jupiter");
+	Body jupiter = new Body(sun,"Jupiter");
 	//jupiter.orbits = sun;
 	jupiter.name = "Jupiter";
 	System.out.println(jupiter.toString());
 	
-	Body moon = new Body();
+	Body moon = new Body("Io");
 	moon.orbits = jupiter;
 	moon.name = "Io";
 	System.out.println(moon.toString());
