@@ -23,7 +23,7 @@ public class BodyDriver {
 	moon.orbits = earth;
 	System.out.println(moon.toString());
 	
-	Body lance = new Body();
+	Body lance = new Body("Lance");
 	lance.orbits = moon;
 	lance.name = "Lance";
 	System.out.println(lance.toString());
