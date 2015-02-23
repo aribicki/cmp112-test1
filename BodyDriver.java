@@ -28,12 +28,12 @@ public class BodyDriver {
 	lance.name = "Lance";
 	System.out.println(lance.toString());
 	
-	Body jupiter = new Body(sun,"Jupiter");
+	Body jupiter = new Body(sun,"Jupiter"); //cant find symbol error
 	//jupiter.orbits = sun;
 	jupiter.name = "Jupiter";
 	System.out.println(jupiter.toString());
 	
-	Body moon = new Body("Io");
+	Body moon = new Body("Io"); // cant find symbol error 
 	moon.orbits = jupiter;
 	moon.name = "Io";
 	System.out.println(moon.toString());
